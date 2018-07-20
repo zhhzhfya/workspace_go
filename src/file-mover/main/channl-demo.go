@@ -47,8 +47,7 @@ func main() {
 			for {
 				value := rand.Intn(MaxRandomNumber)
 				if value == 0 {
-					// here, a trick is used to notify the moderator
-					// to close the additional signal channel.
+					// here, a trick is used to notify the moderator to close the additional signal channel.
 					select {
 					case toStop <- "sender#" + id:
 					default:
@@ -56,8 +55,7 @@ func main() {
 					return
 				}
 
-				// the first select here is to try to exit the
-				// goroutine as early as possible.
+				// the first select here is to try to exit the goroutine as early as possible.
 				select {
 				case <-stopCh:
 					return
@@ -79,8 +77,7 @@ func main() {
 			defer wgReceivers.Done()
 
 			for {
-				// same as senders, the first select here is to
-				// try to exit the goroutine as early as possible.
+				// same as senders, the first select here is to try to exit the goroutine as early as possible.
 				select {
 				case <-stopCh:
 					return
@@ -92,8 +89,7 @@ func main() {
 					return
 				case value := <-dataCh:
 					if value == MaxRandomNumber-1 {
-						// the same trick is used to notify the moderator
-						// to close the additional signal channel.
+						// the same trick is used to notify the moderator to close the additional signal channel.
 						select {
 						case toStop <- "receiver#" + id:
 						default:
