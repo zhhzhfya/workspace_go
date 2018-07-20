@@ -55,7 +55,13 @@ func main() {
 	// 定义系统信号的channl
 	sigs := make(chan os.Signal, 1)
 
-	signal.Notify(sigs, syscall.SIGINT, syscall.SIGTERM)
+	signal.Notify(sigs,
+		os.Kill,
+		os.Interrupt,
+		syscall.SIGHUP,
+		syscall.SIGINT,
+		syscall.SIGTERM,
+		syscall.SIGQUIT)
 
 	go func() {
 		sig := <-sigs
@@ -71,6 +77,11 @@ func main() {
 		// 每个info节点起一个协程
 		go func() {
 			for {
+				select {
+				case <-stopCh:
+					return
+				default:
+				}
 				// 扫描目录
 				rd, err := ioutil.ReadDir(info.Source)
 				if err != nil {
@@ -97,6 +108,12 @@ func main() {
 
 			for {
 				log.Println("for.....")
+				select {
+				case <-stopCh:
+					return
+				default:
+				}
+
 				select {
 				case <-stopCh:
 					return
