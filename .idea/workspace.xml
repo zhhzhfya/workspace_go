@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58b928ed-bae4-4e5a-bcce-0b9d7a4e2a5b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/file-mover/basex/uuid.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/file-mover/main/et-main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/file-mover/main/example.env" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/file-mover/main/gui.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/file-mover/main/gui2.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/file-mover/main/gui3.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/file-mover/main/gui4.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/file-mover/main/mic-service.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/file-mover/main/test_uuid.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/http/client.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/micro-service/app/aaa.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/micro-service/app/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/micro-service/service/webservice.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/mysql/app/dbtest.go" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/channl-close.go" afterPath="$PROJECT_DIR$/src/file-mover/main/channl-close.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/file-mover.go" afterPath="$PROJECT_DIR$/src/file-mover/main/file-mover.go" />
-      <change beforePath="$PROJECT_DIR$/src/web_demo/mysql_demo.go" afterPath="$PROJECT_DIR$/src/web_demo/mysql_demo.go" />
+      <change beforePath="$PROJECT_DIR$/src/http/client.go" afterPath="$PROJECT_DIR$/src/http/client.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,10 +50,10 @@
       <file leaf-file-name="client.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/http/client.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
-                <element signature="e#14#64#0" expanded="true" />
+                <element signature="e#14#77#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -330,8 +313,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14925373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14925373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -709,10 +693,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/http/client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
-            <element signature="e#14#64#0" expanded="true" />
+            <element signature="e#14#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
