@@ -5,6 +5,7 @@ import (
 	"github.com/gohouse/gorose"
 	"fmt"
 	//"github.com/astaxie/beego/logs"
+	"github.com/astaxie/beego/logs"
 )
 
 func main() {
@@ -46,25 +47,25 @@ func main() {
 
 	db := connection.NewDB()
 
-	//db.Begin()
-	//
-	//list := make([]map[string] interface{}, 1000)
-	//
-	//for i := 0; i < 1000; i++ {
-	//	logs.Info("i: %d", i)
-	//	list[i] = map[string]interface{}{"id": i, "name": "ss"}
-	//}
-	//
-	//res2, err := db.Table("user_info").Data(list).Insert()
-	//
-	//if (res2 == 0 || err != nil) {
-	//	logs.Info("发生一个错误: %s", err.Error())
-	//	db.Rollback()
-	//}
-	//
-	//db.Commit()
+	db.Begin()
 
-	res, err := db.Table("user_info").Where("id", ">", 33).Limit(10).Get()
+	list := make([]map[string] interface{}, 10)
+
+	for i := 0; i < 10; i++ {
+		logs.Info("i: %d", i)
+		list[i] = map[string]interface{}{"id": i, "name": "ss"}
+	}
+
+	res2, err := db.Table("user_info").Data(list).Insert()
+
+	if (res2 == 0 || err != nil) {
+		logs.Info("发生一个错误: %s", err.Error())
+		db.Rollback()
+	}
+
+	db.Commit()
+
+	res, err := db.Table("user_info").Where("id", ">", 3).Limit(10).Get()
 
 	if err != nil {
 		fmt.Println(err)

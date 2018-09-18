@@ -1,4 +1,4 @@
-package main
+package block_lain_demo
 
 import (
 	"crypto/sha256"

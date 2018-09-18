@@ -1,4 +1,4 @@
-package main
+package read_files
 
 import (
 	"fmt"

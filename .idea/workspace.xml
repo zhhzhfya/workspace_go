@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58b928ed-bae4-4e5a-bcce-0b9d7a4e2a5b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.env" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/maze/maze.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/maze/maze.in" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/chann-demos/app/demo1.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/chann-demos/app/demo2.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/chann-demos/app/demo3.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/et-main.go" afterPath="$PROJECT_DIR$/src/file-mover/main/example.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/example.env" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/channl-close.go" afterPath="$PROJECT_DIR$/src/chann-demos/app/channl-close.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/channl-demo.go" afterPath="$PROJECT_DIR$/src/chann-demos/app/channl-demo.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/example.go" afterPath="$PROJECT_DIR$/src/block-lain-demo/example.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/gui.go" afterPath="$PROJECT_DIR$/src/gui/gui.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/gui2.go" afterPath="$PROJECT_DIR$/src/gui/gui2.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/gui3.go" afterPath="$PROJECT_DIR$/src/gui/gui3.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/gui4.go" afterPath="$PROJECT_DIR$/src/gui/gui4.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/read-ini.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/read-ini.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/read-json.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/read-json.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/read-xml-demo.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/read-xml-demo.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/read-xml.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/read-xml.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/read-yaml-v2.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/read-yaml-v2.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/read-yaml.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/read-yaml.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/signal-demo.go" afterPath="$PROJECT_DIR$/src/chann-demos/app/signal-demo.go" />
+      <change beforePath="$PROJECT_DIR$/src/file-mover/main/yaml2json.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/yaml2json.go" />
+      <change beforePath="$PROJECT_DIR$/src/mysql/app/dbtest.go" afterPath="$PROJECT_DIR$/src/mysql/app/dbtest.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,36 +32,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="maze.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/maze/maze.go">
+      <file leaf-file-name="demo3.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chann-demos/app/demo3.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="108" column="58" lean-forward="false" selection-start-line="108" selection-start-column="58" selection-end-line="108" selection-end-column="58" />
+            <state relative-caret-position="196">
+              <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
-                <element signature="e#14#37#0" expanded="true" />
+                <element signature="e#14#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/file-mover/main/example.go">
+      <file leaf-file-name="example.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/block-lain-demo/example.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-              <folding>
-                <element signature="e#14#223#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-675">
+              <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="channl-demo.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chann-demos/app/channl-demo.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-224">
+              <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="channl-close.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chann-demos/app/channl-close.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file-mover.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/file-mover/main/file-mover.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="611">
+              <caret line="133" column="20" lean-forward="true" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signal-demo.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chann-demos/app/signal-demo.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbtest.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mysql/app/dbtest.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+              <folding>
+                <element signature="e#14#164#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +123,8 @@
       <find>godotenv</find>
       <find>maze.in</find>
       <find>env</find>
+      <find>port</find>
+      <find>inser</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="C:\Go" />
@@ -79,8 +137,6 @@
         <option value="$PROJECT_DIR$/src/file-mover/main/channl-demo.go" />
         <option value="$PROJECT_DIR$/src/file-mover/main/signal-demo.go" />
         <option value="$PROJECT_DIR$/src/file-mover/conf/info_dev.xml" />
-        <option value="$PROJECT_DIR$/src/file-mover/main/channl-close.go" />
-        <option value="$PROJECT_DIR$/src/file-mover/main/file-mover.go" />
         <option value="$PROJECT_DIR$/src/file-mover/main/file_mover2.go" />
         <option value="$PROJECT_DIR$/src/file-mover/basex/uuid.go" />
         <option value="$PROJECT_DIR$/src/file-mover/main/test_uuid.go" />
@@ -99,13 +155,20 @@
         <option value="$PROJECT_DIR$/src/micro-service/app/main.go" />
         <option value="$PROJECT_DIR$/src/web_demo/mysql_demo.go" />
         <option value="$PROJECT_DIR$/src/mysql/dbtest.go" />
-        <option value="$PROJECT_DIR$/src/mysql/app/dbtest.go" />
         <option value="$PROJECT_DIR$/src/http/client.go" />
         <option value="$PROJECT_DIR$/src/maze/maze.in.go" />
         <option value="$PROJECT_DIR$/src/maze/maze.in" />
         <option value="$PROJECT_DIR$/src/maze/maze.go" />
         <option value="$PROJECT_DIR$/src/file-mover/main/.env" />
         <option value="$PROJECT_DIR$/src/file-mover/main/example.go" />
+        <option value="$PROJECT_DIR$/src/file-mover/main/file-mover.go" />
+        <option value="$PROJECT_DIR$/src/file-mover/main/print_env.go" />
+        <option value="$PROJECT_DIR$/src/chann-demos/app/demo1.go" />
+        <option value="$PROJECT_DIR$/src/chann-demos/app/demo2.go" />
+        <option value="$PROJECT_DIR$/src/chann-demos/app/demo3.go" />
+        <option value="$PROJECT_DIR$/src/file-mover/main/channl-close.go" />
+        <option value="$PROJECT_DIR$/src/mysql/app/dbtest.go" />
+        <option value="$PROJECT_DIR$/src/block-lain-demo/example.go" />
       </list>
     </option>
   </component>
@@ -154,32 +217,65 @@
               <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="block-lain-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chann-demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chann-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="file-mover" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gopkg.in" type="462c0819:PsiDirectoryNode" />
+              <item name="file-mover" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gopkg.in" type="462c0819:PsiDirectoryNode" />
-              <item name="Knetic" type="462c0819:PsiDirectoryNode" />
+              <item name="file-mover" type="462c0819:PsiDirectoryNode" />
+              <item name="read-files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="maze" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,10 +297,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace_github\workspace_go\src\block-lain-demo" />
+      <recent name="E:\workspace_github\workspace_go\src\chann-demos\app" />
+      <recent name="E:\workspace_github\workspace_go\src\file-mover\read-files" />
+      <recent name="E:\workspace_github\workspace_go\src\gui" />
       <recent name="E:\workspace_github\workspace_go\src\mysql\app" />
-      <recent name="E:\workspace_github\workspace_go\src\file-mover\main" />
-      <recent name="E:\workspace_github\workspace_go\src\file-mover" />
-      <recent name="E:\workspace_github\workspace_go\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace_github\workspace_go" />
@@ -225,15 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build example.go">
-    <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="workspace_go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/http/client.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build dbtest.go">
     <configuration name="go build dbtest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="workspace_go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -242,44 +331,52 @@
       <filePath value="$PROJECT_DIR$/src/mysql/app/dbtest.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build et-main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build demo1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="workspace_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/file-mover/main/et-main.go" />
+      <filePath value="$PROJECT_DIR$/src/chann-demos/app/demo1.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build example.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build demo2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="workspace_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/file-mover/main/example.go" />
+      <filePath value="$PROJECT_DIR$/src/chann-demos/app/demo2.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build maze.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build demo3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="workspace_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/maze/maze.go" />
+      <filePath value="$PROJECT_DIR$/src/chann-demos/app/demo3.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build yaml2json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="workspace_go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/file-mover/main/yaml2json.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build dbtest.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build client.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build maze.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build et-main.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build example.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build yaml2json.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build demo1.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build demo2.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build demo3.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build dbtest.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build example.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build et-main.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build maze.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build client.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build dbtest.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build dbtest.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build demo3.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build demo2.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build demo1.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build yaml2json.go" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +400,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25813448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20173536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24728851" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -337,71 +434,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/channl-close.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web_demo/glow.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/time/sleep.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/file-mover/conf/info_prod.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="854">
-          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/file-mover/conf/info_dev.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/signal-demo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/read-xml.go">
+    <entry file="file://$PROJECT_DIR$/src/file-mover/read-files/read-xml.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/channl-demo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/file-mover/main/file_mover2.go" />
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/channl-close.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/read-ini.go">
+    <entry file="file://$PROJECT_DIR$/src/file-mover/read-files/read-ini.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -429,45 +470,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/read-json.go">
+    <entry file="file://$PROJECT_DIR$/src/file-mover/read-files/read-json.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/file-mover.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/file-mover/main/aaaa.env" />
     <entry file="file://$PROJECT_DIR$/src/file-mover/example.env" />
     <entry file="file://$PROJECT_DIR$/src/example.env" />
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/gui2.go">
+    <entry file="file://$PROJECT_DIR$/src/gui/gui2.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1064">
           <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/gui3.go">
+    <entry file="file://$PROJECT_DIR$/src/gui/gui3.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2399">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/gui4.go">
+    <entry file="file://$PROJECT_DIR$/src/gui/gui4.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="251" column="48" lean-forward="false" selection-start-line="251" selection-start-column="48" selection-end-line="251" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/gui.go">
+    <entry file="file://$PROJECT_DIR$/src/gui/gui.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
@@ -536,6 +570,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="189" column="1" lean-forward="true" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -557,6 +592,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="84" column="21" lean-forward="false" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -579,13 +615,6 @@
         <state relative-caret-position="225">
           <caret line="133" column="5" lean-forward="false" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mysql/app/dbtest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -629,7 +658,7 @@
         <state relative-caret-position="0">
           <caret line="108" column="58" lean-forward="false" selection-start-line="108" selection-start-column="58" selection-end-line="108" selection-end-column="58" />
           <folding>
-            <element signature="e#14#37#0" expanded="true" />
+            <element signature="e#14#37#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -658,20 +687,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/file-mover/main/example.go">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/file-mover/main/print_env.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#14#223#0" expanded="true" />
+            <element signature="e#14#37#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/src/file-mover/read-files/yaml2json.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="350">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chann-demos/app/demo1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#60#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chann-demos/app/demo2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#60#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chann-demos/app/demo3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#14#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chann-demos/app/channl-demo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mysql/app/dbtest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding>
+            <element signature="e#14#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chann-demos/app/channl-close.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/file-mover/main/file-mover.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="133" column="20" lean-forward="true" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chann-demos/app/signal-demo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/block-lain-demo/example.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
           <folding />
         </state>
       </provider>
