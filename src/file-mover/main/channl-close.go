@@ -84,7 +84,7 @@ func main() {
 	<-sc
 
 	close(ch)
-	fmt.Println("close ch ")
+	fmt.Println("close ch")
 	close(chSend)
 	close(chConsume)
 	wg.Wait()

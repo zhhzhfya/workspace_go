@@ -10,6 +10,7 @@ import (
 	"sync"
 	"os/signal"
 	"syscall"
+	"fmt"
 )
 
 type SInfos struct {
@@ -125,6 +126,12 @@ func main() {
 			}
 		}()
 	}
+
+	<-sigs
+	close(ch)
+	fmt.Println("close ch")
+	close(chSend)
+	close(chConsume)
 
 	wgMovers.Wait()
 	log.Println("file_mover正常退出")

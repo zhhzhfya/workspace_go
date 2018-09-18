@@ -7,7 +7,7 @@ import (
 	)
 
 func main()  {
-	db, err := sql.Open("mysql", "root:111111@tcp(192.168.72.128:3306)/test?charset=utf8")
+	db, err := sql.Open("mysql", "root:111111@tcp(192.168.4.30:3306)/test?charset=utf8")
 	checkErr(err)
 
 	// insert
