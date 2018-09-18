@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58b928ed-bae4-4e5a-bcce-0b9d7a4e2a5b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chann-demos/app/demo1.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chann-demos/app/demo2.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/chann-demos/app/demo3.go" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/channl-close.go" afterPath="$PROJECT_DIR$/src/chann-demos/app/channl-close.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/channl-demo.go" afterPath="$PROJECT_DIR$/src/chann-demos/app/channl-demo.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/example.go" afterPath="$PROJECT_DIR$/src/block-lain-demo/example.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/gui.go" afterPath="$PROJECT_DIR$/src/gui/gui.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/gui2.go" afterPath="$PROJECT_DIR$/src/gui/gui2.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/gui3.go" afterPath="$PROJECT_DIR$/src/gui/gui3.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/gui4.go" afterPath="$PROJECT_DIR$/src/gui/gui4.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/read-ini.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/read-ini.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/read-json.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/read-json.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/read-xml-demo.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/read-xml-demo.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/read-xml.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/read-xml.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/read-yaml-v2.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/read-yaml-v2.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/read-yaml.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/read-yaml.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/signal-demo.go" afterPath="$PROJECT_DIR$/src/chann-demos/app/signal-demo.go" />
-      <change beforePath="$PROJECT_DIR$/src/file-mover/main/yaml2json.go" afterPath="$PROJECT_DIR$/src/file-mover/read-files/yaml2json.go" />
-      <change beforePath="$PROJECT_DIR$/src/mysql/app/dbtest.go" afterPath="$PROJECT_DIR$/src/mysql/app/dbtest.go" />
+      <change beforePath="$PROJECT_DIR$/src/block-lain-demo/example.go" afterPath="$PROJECT_DIR$/src/eth-demo/example.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,7 +26,7 @@
         </entry>
       </file>
       <file leaf-file-name="example.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/block-lain-demo/example.go">
+        <entry file="file://$PROJECT_DIR$/src/eth-demo/example.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-675">
               <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
@@ -78,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/file-mover/main/file-mover.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="611">
-              <caret line="133" column="20" lean-forward="true" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+              <caret line="133" column="20" lean-forward="false" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -88,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/chann-demos/app/signal-demo.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="e#14#61#0" expanded="true" />
               </folding>
@@ -169,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/file-mover/main/channl-close.go" />
         <option value="$PROJECT_DIR$/src/mysql/app/dbtest.go" />
         <option value="$PROJECT_DIR$/src/block-lain-demo/example.go" />
+        <option value="$PROJECT_DIR$/src/eth-demo/example.go" />
       </list>
     </option>
   </component>
@@ -217,12 +199,6 @@
               <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="block-lain-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chann-demos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -231,6 +207,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chann-demos" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="eth-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workspace_go" type="b2602c69:ProjectViewProjectNode" />
@@ -772,7 +754,7 @@
     <entry file="file://$PROJECT_DIR$/src/file-mover/main/file-mover.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="611">
-          <caret line="133" column="20" lean-forward="true" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+          <caret line="133" column="20" lean-forward="false" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -780,14 +762,14 @@
     <entry file="file://$PROJECT_DIR$/src/chann-demos/app/signal-demo.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="e#14#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/block-lain-demo/example.go">
+    <entry file="file://$PROJECT_DIR$/src/eth-demo/example.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-675">
           <caret line="82" column="38" lean-forward="false" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
